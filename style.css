@@ -1,0 +1,191 @@
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url("font/Inter-SemiBold.otf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter-SemiBold;
+}
+
+
+#block1{
+    background-color: #553e4e;
+}
+
+header{
+    padding: 35px 43px 0 43px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+nav{
+    font-size: 25px;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:#8770B2;
+    font-family: inter;
+}
+
+#Nav_btn{
+    background-color: #4E6E46;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+#mascot{
+    position: absolute;
+    left: 47%;
+    top: 17%;
+    z-index: 1;
+}
+
+#mascot_title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+#content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+#content__item{
+    background-color: #8770B294;
+    border-radius: 24px;
+    width: 35rem;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0 10px 40px 10px;
+}
+
+#services_items{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__title{
+    color: #553E4E;
+    font-size: 64px;
+    margin: 20px 0 50px 0;
+}
+
+#services__item{
+    background-color: #B9ACD2;
+    padding: 20px 5px;
+    font-size: 23px;
+    width: 55rem;
+    border-radius: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 20px 20px 20px 0;
+}
+
+.services__item_name{
+    color: #553E4E;
+}
+.services__item_time{
+    color: #8770B2;
+}
+.services__item_price{
+    color:#FFFFFF;
+}
+
+.SignUp{
+    background-color: #4E6E46;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px 140px;
+    border: none;
+    margin-top: 50px;
+}
+
+#Branded__products{
+    text-align: center;
+}
+
+.Branded__products_title{
+    color: #553E4E;
+    font-size: 64px;
+    margin: 200px 0 0 0;
+}
+
+
+.shower_gel_text{
+    color:#553E4E;
+    font-size: 36px;
+    margin: 70px 0;
+}
+
+.hands_creem_text{
+    color:#553E4E;
+    font-size: 36px;
+}
+
+p{
+    margin: 0;
+}
+
+
+#Reviews{
+    text-align: center;
+
+}
+
+.rewiew_item{
+    background-color: #B9ACD2;
+    width: 55rem;
+    border-radius: 103px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px 50px;
+}
+
+
+.content_el{
+    margin-right: 20px;
+}
+
+.contacts{
+    color: white;
+    font-size: 32px;
+    text-align: left;
+}
+
+footer{
+    background-color: #8770b2;
+    height: 25rem;
+    text-align: center;
+
+}
